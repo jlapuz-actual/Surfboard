@@ -35,6 +35,7 @@ I may change the position of the feather but it will definitely have the usb por
   
 All of these are Eagle files, I am looking into converting the files for use in Kicad
 
-# Thoughts
+Thoughts  
+---  
 
 I didn't plan on Alps support since there isn't much keycap support for Alps, and I don't find contoured keycaps in the wrong rows attractive. I didn't find a component in the [clueboard eagle library](https://github.com/skullydazed/clueboard_eagle) with alps-mx mount that has a integrated diode footprint, but I may be able to put something together
