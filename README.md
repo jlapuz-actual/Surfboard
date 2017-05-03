@@ -1,6 +1,6 @@
 keyswitch  
 ---
-I mean for this to be a keyboard PCB that you can drop in an [Adafruit Feather](https://www.adafruit.com/product/2829), switches, and diodes.
+I mean for this to be a keyboard PCB that you can drop in an [Adafruit Bluetooth Feather](https://www.adafruit.com/product/2829), switches, and diodes.
 
 Layout  
 ---
@@ -24,18 +24,19 @@ PCB
 ---    
 
 None of this is final, partly because I don't know if it's aligned correctly and if there is an egregious electrical error
-[keyswitch.brd](https://github.com/karakot/keyswitch/blob/master/keyswitch.pdf)  |  [keyswitch.sch](https://github.com/karakot/keyswitch/blob/master/keyswitchsch.pdf)    
+[keyswitch.brd](https://github.com/jlapuz-actual/Surfboard/blob/master/keyswitch.pdf)  |  [keyswitch.sch](https://github.com/jlapuz-actual/Surfboard/blob/master/keyswitchsch.pdf)    
 Basically I have no idea if the routes are "legal". I'm pretty sure that the schematic is correct though.  
+Regardless I need a few more experienced sets of eyes, since I'm pretty much shooting blind
 
 ---  
 
-I may change the position of the feather but it will definitely have the usb port facing the outside edge as it serves as the charger for the battery that will be connected.  
+I may change the position of the feather but it will definitely have the usb port facing the outside edge, most likely the left and right edges, as it serves as the charger port for the battery that will be connected.  
 
-[keyswitch_matrixOnly.brd](https://github.com/karakot/keyswitch/blob/master/keyswitch_matrixOnly.pdf) and [keyswitch_noRoutes.brd](https://github.com/karakot/keyswitch/blob/master/keyswitch_noRoutes.pdf) are checkpoint backups  
+[keyswitch_matrixOnly.brd](https://github.com/jlapuz-actual/Surfboard/blob/master/keyswitch_matrixOnly.pdf) and [keyswitch_noRoutes.brd](https://github.com/jlapuz-actual/Surfboard/blob/master/keyswitch_noRoutes.pdf) are checkpoint backups  
   
 All of these are Eagle files, I am looking into converting the files for use in Kicad
 
 Thoughts  
 ---  
 
-I didn't plan on Alps support since there isn't much keycap support for Alps, and I don't find contoured keycaps in the wrong rows attractive. I didn't find a component in the [clueboard eagle library](https://github.com/skullydazed/clueboard_eagle) with alps-mx mount that has a integrated diode footprint, but I may be able to put something together
+I didn't plan on Alps support since there isn't much keycap support for Alps, and I don't find contoured keycaps in the wrong rows attractive. I didn't find a component in the [clueboard eagle library](https://github.com/skullydazed/clueboard_eagle) with alps-mx mount that has a integrated diode footprint, but I may be able to put something together. If I do go on and complete this project, I plan on writing my own firmware since for me that would be the primary purpose, to tinker around with the code, and that will be uploaded here. As I understand,[qmk firmware](https://github.com/qmk/qmk_firmware) is perfectly usable on the Adafruit Bluefruit Feather, so if anyone wants to use it
