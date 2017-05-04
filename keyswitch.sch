@@ -2589,8 +2589,8 @@
 <pinref part="KEY_Q" gate="G$1" pin="P1"/>
 <wire x1="-78.74" y1="101.6" x2="-78.74" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-78.74" y1="-30.48" x2="-78.74" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="-30.48" x2="-78.74" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="33.02" x2="-78.74" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="-30.48" x2="-78.74" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-78.74" y1="30.48" x2="-78.74" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-91.44" y1="101.6" x2="-78.74" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="KEY_A" gate="G$1" pin="P1"/>
 <wire x1="-91.44" y1="58.42" x2="-78.74" y2="58.42" width="0.1524" layer="91"/>
@@ -2600,10 +2600,10 @@
 <junction x="-78.74" y="-30.48"/>
 <pinref part="KEY_WIN" gate="G$1" pin="P1"/>
 <wire x1="-91.44" y1="-76.2" x2="-78.74" y2="-76.2" width="0.1524" layer="91"/>
-<wire x1="-78.74" y1="33.02" x2="172.72" y2="33.02" width="0.1524" layer="91"/>
-<junction x="-78.74" y="33.02"/>
+<wire x1="-78.74" y1="30.48" x2="172.72" y2="30.48" width="0.1524" layer="91"/>
+<junction x="-78.74" y="30.48"/>
 <pinref part="FEATHER" gate="G$1" pin="GPIOTX"/>
-<wire x1="172.72" y1="17.78" x2="172.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="17.78" x2="172.72" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -2630,8 +2630,8 @@
 </net>
 <net name="N$49" class="0">
 <segment>
-<wire x1="-17.78" y1="-30.48" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="40.64" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="-30.48" x2="-17.78" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="38.1" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="58.42" x2="-17.78" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="KEY_R" gate="G$1" pin="P1"/>
 <wire x1="-30.48" y1="101.6" x2="-17.78" y2="101.6" width="0.1524" layer="91"/>
@@ -2640,10 +2640,10 @@
 <junction x="-17.78" y="58.42"/>
 <pinref part="KEY_V" gate="G$1" pin="P1"/>
 <wire x1="-30.48" y1="-30.48" x2="-17.78" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="40.64" x2="187.96" y2="40.64" width="0.1524" layer="91"/>
-<junction x="-17.78" y="40.64"/>
-<pinref part="FEATHER" gate="G$1" pin="GPIOA4"/>
-<wire x1="187.96" y1="17.78" x2="187.96" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-17.78" y1="38.1" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-17.78" y="38.1"/>
+<pinref part="FEATHER" gate="G$1" pin="GPIOA3"/>
+<wire x1="190.5" y1="38.1" x2="190.5" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$51" class="0">
@@ -2693,16 +2693,18 @@
 <wire x1="180.34" y1="101.6" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="KEY_S_COLON" gate="G$1" pin="P1"/>
 <wire x1="180.34" y1="58.42" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="FEATHER" gate="G$1" pin="GPIOA2"/>
-<wire x1="193.04" y1="58.42" x2="193.04" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="58.42" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="43.18" x2="187.96" y2="43.18" width="0.1524" layer="91"/>
 <junction x="193.04" y="58.42"/>
+<pinref part="FEATHER" gate="G$1" pin="GPIOA4"/>
+<wire x1="187.96" y1="43.18" x2="187.96" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
 <segment>
-<wire x1="228.6" y1="-76.2" x2="228.6" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="-50.8" x2="228.6" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="-30.48" x2="228.6" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-76.2" x2="228.6" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="-30.48" x2="228.6" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="27.94" x2="228.6" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="58.42" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="KEY_BKSPCE" gate="G$1" pin="P1"/>
 <wire x1="215.9" y1="101.6" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
@@ -2714,10 +2716,10 @@
 <junction x="228.6" y="-30.48"/>
 <pinref part="KEY_ENTER" gate="G$1" pin="P1"/>
 <wire x1="215.9" y1="-76.2" x2="228.6" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="FEATHER" gate="G$1" pin="GPIO13"/>
-<wire x1="228.6" y1="-50.8" x2="190.5" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="-50.8" x2="190.5" y2="-25.4" width="0.1524" layer="91"/>
-<junction x="228.6" y="-50.8"/>
+<pinref part="FEATHER" gate="G$1" pin="GPIOA0"/>
+<wire x1="228.6" y1="27.94" x2="198.12" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="27.94" x2="198.12" y2="17.78" width="0.1524" layer="91"/>
+<junction x="228.6" y="27.94"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -2784,8 +2786,8 @@
 <net name="N$58" class="0">
 <segment>
 <wire x1="-99.06" y1="101.6" x2="-99.06" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="58.42" x2="-99.06" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-99.06" y1="30.48" x2="-99.06" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="58.42" x2="-99.06" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-99.06" y1="33.02" x2="-99.06" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="-99.06" y1="-30.48" x2="-99.06" y2="-76.2" width="0.1524" layer="91"/>
 <pinref part="KEY_ESC" gate="G$1" pin="P1"/>
 <wire x1="-111.76" y1="101.6" x2="-99.06" y2="101.6" width="0.1524" layer="91"/>
@@ -2797,10 +2799,10 @@
 <pinref part="KEY_TAB" gate="G$1" pin="P1"/>
 <wire x1="-111.76" y1="58.42" x2="-99.06" y2="58.42" width="0.1524" layer="91"/>
 <junction x="-99.06" y="58.42"/>
-<wire x1="-99.06" y1="30.48" x2="175.26" y2="30.48" width="0.1524" layer="91"/>
-<junction x="-99.06" y="30.48"/>
+<wire x1="-99.06" y1="33.02" x2="175.26" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-99.06" y="33.02"/>
 <pinref part="FEATHER" gate="G$1" pin="GPIORX"/>
-<wire x1="175.26" y1="30.48" x2="175.26" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="33.02" x2="175.26" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$59" class="0">
@@ -2854,7 +2856,7 @@
 </net>
 <net name="N$46" class="0">
 <segment>
-<wire x1="2.54" y1="-76.2" x2="2.54" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-55.88" x2="2.54" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="-30.48" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="58.42" x2="2.54" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="KEY_T" gate="G$1" pin="P1"/>
@@ -2867,11 +2869,11 @@
 <junction x="2.54" y="-30.48"/>
 <pinref part="KEY_SPACE" gate="G$1" pin="P1"/>
 <wire x1="-10.16" y1="-76.2" x2="2.54" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="FEATHER" gate="G$1" pin="GPIO10"/>
-<wire x1="182.88" y1="-93.98" x2="182.88" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-76.2" x2="2.54" y2="-93.98" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="-93.98" x2="182.88" y2="-93.98" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-76.2" x2="2.54" y2="-55.88" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-55.88" x2="180.34" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="2.54" y="-76.2"/>
+<pinref part="FEATHER" gate="G$1" pin="GPIO9"/>
+<wire x1="180.34" y1="-55.88" x2="180.34" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -2890,10 +2892,10 @@
 <junction x="154.94" y="-30.48"/>
 <pinref part="KEY_FN3" gate="G$1" pin="P1"/>
 <wire x1="142.24" y1="-76.2" x2="154.94" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="FEATHER" gate="G$1" pin="GPIO9"/>
-<wire x1="154.94" y1="-58.42" x2="180.34" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="-58.42" x2="180.34" y2="-25.4" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-58.42" x2="182.88" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="154.94" y="-58.42"/>
+<pinref part="FEATHER" gate="G$1" pin="GPIO10"/>
+<wire x1="182.88" y1="-58.42" x2="182.88" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -2955,9 +2957,9 @@
 <segment>
 <wire x1="-38.1" y1="58.42" x2="-38.1" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="-38.1" y1="-76.2" x2="-38.1" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-38.1" y1="-30.48" x2="-38.1" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="-30.48" x2="-38.1" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="KEY_E" gate="G$1" pin="P1"/>
-<wire x1="-38.1" y1="38.1" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="40.64" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="101.6" x2="-38.1" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="KEY_D" gate="G$1" pin="P1"/>
 <wire x1="-50.8" y1="58.42" x2="-38.1" y2="58.42" width="0.1524" layer="91"/>
@@ -2967,10 +2969,10 @@
 <pinref part="KEY_FN1" gate="G$1" pin="P1"/>
 <wire x1="-50.8" y1="-76.2" x2="-38.1" y2="-76.2" width="0.1524" layer="91"/>
 <junction x="-38.1" y="58.42"/>
-<wire x1="-38.1" y1="38.1" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
-<junction x="-38.1" y="38.1"/>
-<pinref part="FEATHER" gate="G$1" pin="GPIOA3"/>
-<wire x1="190.5" y1="38.1" x2="190.5" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="40.64" x2="193.04" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-38.1" y="40.64"/>
+<pinref part="FEATHER" gate="G$1" pin="GPIOA2"/>
+<wire x1="193.04" y1="40.64" x2="193.04" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$72" class="0">
@@ -3019,11 +3021,13 @@
 <junction x="190.5" y="60.96"/>
 <pinref part="KEY_APOST" gate="G$1" pin="D-"/>
 <wire x1="226.06" y1="48.26" x2="226.06" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="60.96" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="FEATHER" gate="G$1" pin="GPIOA0"/>
-<wire x1="198.12" y1="60.96" x2="190.5" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="17.78" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
-<junction x="198.12" y="60.96"/>
+<wire x1="226.06" y1="60.96" x2="190.5" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="60.96" x2="259.08" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="60.96" x2="259.08" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="226.06" y="60.96"/>
+<pinref part="FEATHER" gate="G$1" pin="GPIO13"/>
+<wire x1="259.08" y1="-48.26" x2="190.5" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="-48.26" x2="190.5" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
